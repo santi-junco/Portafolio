@@ -390,10 +390,16 @@ section .title::after{
 .contact .title::after{
     content: "get in touch";
 }
+.contact .contact-content .icons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
 /* .contact .contact-content .column{
     width: calc(50% - 30px); 
 } */
-.contact .contact-content .text{
+/* .contact .contact-content .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -405,7 +411,7 @@ section .title::after{
     margin: 10px 0;
     display: flex;
     justify-content: center;
-}
+} */
 .contact .contact-content .row{
     display: flex;
     flex-direction: column;
@@ -575,6 +581,13 @@ footer span a:hover{
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
+    }
+    .contact .contact-content .icons{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 @media (max-width: 690px){
