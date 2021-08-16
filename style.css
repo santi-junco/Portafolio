@@ -327,7 +327,7 @@ section .title::after{
 }
 /* projects section styling */
 .projects .title::after{
-    content: "what I did";
+    content: "Posts website";
 }
 .projects .carousel .card{
     background: #222;
@@ -347,7 +347,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover .box{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .projects .carousel .card .text{
     font-size: 25px;
@@ -429,6 +429,10 @@ section .title::after{
 }
 .contact .contact-content .info .head{
     font-weight: 500;
+}
+.contact .contact-content .info .head a{
+    color: #111;
+    text-decoration: none;
 }
 .contact .contact-content .info .sub-title{
     color: #333;
