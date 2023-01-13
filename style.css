@@ -329,7 +329,7 @@ section .title::after{
 }
 /* projects section styling */
 .projects .title::after{
-    content: "Posts website";
+    /* content: "Posts website"; */
 }
 .projects .carousel .card{
     background: #222;
@@ -360,6 +360,14 @@ section .title::after{
     height: 150px;
     width: 150px;
     object-fit: cover;
+    border-radius: 6px;
+    border: 3px solid crimson;
+    transition: all 0.3s ease;
+}
+.projects .carousel .card .img2{
+    object-fit: contain;
+    height: 150px;
+    width: 150px;
     border-radius: 6px;
     border: 3px solid crimson;
     transition: all 0.3s ease;
